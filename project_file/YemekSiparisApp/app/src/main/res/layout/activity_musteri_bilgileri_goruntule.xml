@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui_admin.MusteriListeleAdmin.MusteriBilgileriGoruntule">
+
+
+        <TextView
+            android:id="@+id/textview_mail"
+
+            android:layout_width="417dp"
+            android:layout_height="29dp"
+            android:background="@android:color/holo_red_light"
+            android:text="mail"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/textColor"
+            android:textSize="20sp" />
+
+        <TextView
+        android:id="@+id/textview_soyisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="soyisim"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textview_isim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_mail"
+        android:layout_toStartOf="@id/textview_mail"
+        android:background="@android:color/holo_red_light"
+        android:text="isim"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:id="@+id/textview_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="telno"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@color/alternativeColor"
+        android:textColor="@color/textColor"
+        android:text="KAralisteye al"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end" />
+</LinearLayout>
